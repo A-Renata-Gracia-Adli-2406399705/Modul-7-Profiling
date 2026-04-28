@@ -1,4 +1,6 @@
-# Test Plan 1 (/all-student)
+# Performance Testing
+
+## Test Plan 1 (/all-student)
 1. View Results Tree
    ![all-student view results tree](/assets/images/test_plan_1 results tree.png)
 2. View Results in Table
@@ -11,7 +13,7 @@
    ![all-student cli results](/assets/images/test_plan_1 cli.png)
 
 
-# Test Plan 2 (/all-student-name)
+## Test Plan 2 (/all-student-name)
 1. View Results Tree
    ![all-student-name view results tree](/assets/images/test_plan_2 results tree.png)
 2. View Results in Table
@@ -22,7 +24,7 @@
    ![all-student-name cli results](/assets/images/test_plan_2 cli.png)
 
 
-# Test Plan 3 (/highest-gpa)
+## Test Plan 3 (/highest-gpa)
 1. View Results Tree
    ![highest-gpa view results tree](/assets/images/test_plan_3 results tree.png)
 2. View Results in Table
@@ -31,3 +33,8 @@
    ![highest-gpa summary report](/assets/images/test_plan_3 summary report.png)
 4. Graph Results
    ![highest-gpa cli results](/assets/images/test_plan_3 cli.png)
+
+
+# Profiling
+1. /all-student
+   ![cpu time getallstudentswithcourses](/assets/images/cpu time getallstudentswithcourses.png)
