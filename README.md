@@ -19,6 +19,8 @@
 3. Summary Report
    ![all-student-name summary report](/assets/images/test_plan_2_summary_report.png)
 4. Graph Results
+   ![all-student-name graph results](/assets/images/test_plan_2_graph_results.png)
+5. CLI
    ![all-student-name cli results](/assets/images/test_plan_2_cli.png)
 
 
@@ -30,4 +32,6 @@
 3. Summary Report
    ![highest-gpa summary report](/assets/images/test_plan_3_summary_report.png)
 4. Graph Results
+   ![highest-gpa graph results](/assets/images/test_plan_3_graph_results.png)
+5. CLI
    ![highest-gpa cli results](/assets/images/test_plan_3_cli.png)
