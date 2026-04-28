@@ -35,8 +35,10 @@
    ![highest-gpa cli results](/assets/images/test_plan_3 cli.png)
 
 
-# Profiling
+# Performance Improvement
 1. /all-student
    ![cpu time getallstudentswithcourses](/assets/images/cpu time getallstudentswithcourses.png)
 2. /all-student-names
    ![cpu time joinstudentnames](/assets/images/cpu time joinstudentnames.png)
+3. /highest-gpa
+   ![cpu time findstudentwithhighestgpa](/assets/images/cpu time findstudentwithhighestgpa.png)
