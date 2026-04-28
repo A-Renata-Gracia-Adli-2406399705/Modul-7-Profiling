@@ -1,0 +1,31 @@
+# Test Plan 1 (/all-student)
+1. View Results Tree
+   ![all-student view results tree](/assets/images/test_plan_1 results tree.png)
+2. View Results in Table
+   ![all-student view results in table](/assets/images/test_plan_1 results in table.png)
+3. Summary Report
+   ![all-student summary report](/assets/images/test_plan_1 summary report.png)
+4. Graph Results
+   ![all-student graph results](/assets/images/test_plan_1 graph results.png)
+
+
+# Test Plan 2 (/all-student-name)
+1. View Results Tree
+   ![all-student-name view results tree](/assets/images/test_plan_2 results tree.png)
+2. View Results in Table
+   ![all-student-name view results in table](/assets/images/test_plan_2 results in table.png)
+3. Summary Report
+   ![all-student-name summary report](/assets/images/test_plan_2 summary report.png)
+4. Graph Results
+   ![all-student-name graph results](/assets/images/test_plan_2 graph results.png)
+
+
+# Test Plan 3 (/highest-gpa)
+1. View Results Tree
+   ![highest-gpa view results tree](/assets/images/test_plan_3 results tree.png)
+2. View Results in Table
+   ![highest-gpa view results in table](/assets/images/test_plan_3 results in table.png)
+3. Summary Report
+   ![highest-gpa summary report](/assets/images/test_plan_3 summary report.png)
+4. Graph Results
+   ![highest-gpa graph results](/assets/images/test_plan_3 graph results.png)
