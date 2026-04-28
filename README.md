@@ -38,3 +38,5 @@
 # Profiling
 1. /all-student
    ![cpu time getallstudentswithcourses](/assets/images/cpu time getallstudentswithcourses.png)
+2. /all-student-names
+   ![cpu time joinstudentnames](/assets/images/cpu time joinstudentnames.png)
