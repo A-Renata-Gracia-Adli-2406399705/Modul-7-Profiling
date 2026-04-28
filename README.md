@@ -63,3 +63,47 @@ Dapat disimpulkan bahwa optimization yang dilakukan berhasil meningkatkan perfor
    ![cpu time joinstudentnames](/assets/images/cpu time joinstudentnames.png)
 3. /highest-gpa
    ![cpu time findstudentwithhighestgpa](/assets/images/cpu time findstudentwithhighestgpa.png)
+
+
+# Reflection
+
+1. JMeter digunakan untuk melakukan performance testing dari sisi eksternal dengan mensimulasikan banyak pengguna yang mengakses aplikasi secara bersamaan. Hasilnya berupa response time, throughput, error rate, dll.
+Sedangkan IntelliJ Profiler digunakan untuk menganalisis performa dari sisi internal aplikasi. Profiler memberikan informasi detail mengenai method mana yang paling banyak menggunakan CPU time atau resource sehingga memudahkan dalam menemukan bottleneck pada kode.
+
+
+2. Profiling membantu mengidentifikasi bagian kode yang paling banyak mengonsumsi resource, seperti CPU time. Dengan melihat flame graph dan method list, kita dapat mengetahui method mana yang menjadi bottleneck sehingga optimization dapat difokuskan pada bagian tersebut.
+
+
+3. Iya, menurut saya, IntelliJ Profiler sangat efektif dalam membantu menganalisis performa aplikasi karena visualisasi seperti flame graph memudahkan dalam memahami alur eksekusi program dan menemukan bagian yang tidak efisien sehingga proses debugging dan optimization menjadi lebih terarah.
+
+
+4. Beberapa tantangannya yaitu:
+- Hasil pengujian yang tidak konsisten karena faktor-faktor seperti spesifikasi laptop atau beban sistem
+- Waktu eksekusi yang lama saat data yang digunakan cukup besar
+- Kesulitan memahami flame graph di awal
+
+Cara mengatasinya:
+- Melakukan pengujian beberapa kali untuk mendapatkan hasil yang lebih stabil
+- Mengurangi jumlah data saat development tapi tanpa menghilangkan esensi testing
+- Memahami dasar cara kerja profiler secara bertahap
+
+
+5. Manfaatnya yaitu:
+- Dapat mengetahui method yang paling memakan resource
+- Membantu menemukan bottleneck secara spesifik
+- Mempermudah proses optimization karena berbasis data, bukan asumsi
+
+
+6. Perbedaan hasil antara JMeter dan Profiler dapat terjadi karena JMeter mengukur performa dari sisi pengguna (response time), sedangkan Profiler mengukur penggunaan resource internal (CPU time).
+Cara mengatasi kalau resultsnya tidak konsisten adalah hasil dari keduanya digunakan secara komplementer. Profiler digunakan untuk menemukan sumber masalah, sedangkan JMeter digunakan untuk memvalidasi apakah optimization benar-benar meningkatkan performance dari sisi pengguna.
+
+
+7. Strategi optimization yang dilakukan yaitu:
+- Mengurangi jumlah query database (menghindari N+1 query)
+- Memanfaatkan query langsung dari database (misalnya sorting di database)
+- Menggunakan struktur data yang lebih efisien seperti StringBuilder
+
+Untuk memastikan perubahan tidak merusak fungsionalitas, maka:
+- Melakukan testing ulang endpoint setelah perubahan
+- Membandingkan hasil output sebelum dan sesudah optimization
+- Menjalankan kembali performance testing untuk memastikan aplikasi tetap berjalan dengan benar
